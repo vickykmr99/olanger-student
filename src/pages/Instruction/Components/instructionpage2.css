@@ -1,0 +1,123 @@
+.instructionpage2-leftside-container {
+  font-family: Poppins !important;
+}
+.instructionpage2-main {
+  display: flex;
+  position: sticky;
+  margin-top: 4%;
+
+}
+.instructionpage2-main::-webkit-scrollbar {
+  display: none !important;
+}
+
+ .instructionpage2-leftside-container {
+  background-color: #ffffff;
+  width: 80%;
+  height: 900px;
+  overflow-y: scroll;
+}
+.instructionpage2-rightside-container {
+  width: 20%;
+  height: 692px;
+  right: 0;
+  position: fixed;
+  background: rgba(153, 153, 153, 0.19);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.instructionpage2-rightside-avtar1 {
+  width: 90px !important;
+  height: 90px !important;
+  border: 7px solid #fff;
+}
+.user-namee-instruction {
+  margin-right: 50px;
+  font-weight: 500 !important;
+}
+.next-btnn {
+  border-radius: 4px;
+  background: #3e30c2;
+}
+
+/* leftside */
+/* .ip2-maximum{
+  margin-left: 50px;
+} */
+
+.instructionpage2-leftside-container {
+  padding: 23px 0px 23px 70px;
+  color: #141226;
+  font-size: Poppins !important;
+}
+.ip2-d {
+  color: #141226;
+  font-family: Poppins !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.ip2-dd {
+  color: #141226;
+  font-family: Poppins !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  margin-left: 83% !important;
+  /* margin-right: 5% !important; */
+}
+.ip2-ddd {
+  color: #141226;
+  font-family: Poppins !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+.ip2-content {
+  margin-left: 15px;
+  font-family: Poppins !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+.ip2-redt {
+  color: #ff4a4a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.instructionpage2-lastpart {
+  padding: 35px 0px 25px 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 90px;
+  /* width: 826px;
+  height: 250px; */
+  border: 1px solid #ede8e8;
+}
+.ip2-d10 {
+  font-size: 13px !important;
+  font-family: Poppins !important;
+}
+.bottom-left-part2 {
+  position: fixed;
+  bottom: 0px;
+  background-color: #ffffff;
+  height: 79px;
+  width: 80%;
+}
+.instructionpage2-fixedbutton {
+  position: fixed;
+  bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 10px; */
+  padding-left: 20px;
+  padding-right: 90px;
+  width: 80%;
+  height: 50px;
+}
+.ip2-heading {
+  font-family: Poppins !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  padding-top: 10px;
+}

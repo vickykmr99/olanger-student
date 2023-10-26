@@ -1,0 +1,78 @@
+.tablist-series{
+    display: flex;
+    /* gap: 30px; */
+    margin-bottom: 4%;
+    margin-left: 3%;
+    width: 100vw;
+}
+.tablist-tab-series{
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px 45px;
+    border:none;
+    border:1px solid lightgray;
+    width: 100%;
+}
+.tablist-tab-series:hover , .tablist-tab-series:focus , .tablist-tab-series:active{
+    border-radius: 5px;
+    color: white !important;
+    background-color: #3E30C2 !important;
+}
+.control{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* .tablist-tab-series:{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 60%;
+    border-top: 40px solid 
+    #3E30C2;
+    border-left: 40px solid 
+  transparent;
+    border-right: 40px solid 
+  transparent;
+} */
+
+
+
+
+
+
+
+
+
+.tab-list-t{
+  color: #3E30C2 !important;
+  border:1px solid #3E30C2 !important;
+font-family: Poppins;
+font-size: 15px !important;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize !important;
+padding: 10px;
+/* width: 100% !important;
+max-width:  190px !important; */
+}
+
+.tab-list-t:focus{
+  color: white !important;
+  background-color:#3E30C2 !important ;
+  border-radius: 10px !important;
+}
+/* .tab-list-t:after{
+  content: " ";
+ position: absolute;
+ bottom: -9px;
+ text-align: left;
+ width: 0;
+ height: 0;
+ border-left: 10px solid transparent;
+ border-right: 10px solid transparent;
+ border-top: 10px solid red;
+} */

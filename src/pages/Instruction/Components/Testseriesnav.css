@@ -1,0 +1,335 @@
+.rating {
+  color: #faaf00 !important;
+  
+  /* background-color:  #faaf00 !important; */
+}
+.Reattempt {
+  width: 170px !important;
+  height: 35px;
+  margin-top: 5px;
+  color: var(--nuetrals-nuetrals-n-100, #fff);
+  text-align: center;
+  /* Body/B2 - Reg */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 4px;
+  border: 0.5px solid
+    var(--primary-color-primarycolor-primary-color-600, #6257cd);
+  background: var(
+    --primary-color-primarycolor-primary-color-600,
+    #6257cd
+  ) !important;
+}
+
+.Overall-Performance {
+  color: #000;
+  /* Heading / H3 - Bold */
+  font-family: Poppins;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+}
+.Rank {
+  color: var(--nuetrals-nuetrals-n-300, #72717d);
+  /* Body/B3 - Reg */
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Rank1 {
+  color: var(--nuetrals-nuetrals-n-600, #3e3d4d);
+  /* Body/B1 - Reg */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.weak {
+  /* color: var(
+    --primary-color-primarycolor-primary-color-600,
+    #6257cd
+  ) !important; */
+  white-space: nowrap;
+  font-family: Poppins;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 400;
+}
+.weak :focus{
+  color: #3E30C2;
+  border-bottom: 4px solid #3E30C2 !important ;
+}
+.weak-second{
+  font-family: Poppins;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 400;
+}
+.weak-second :focus{
+  color: #3E30C2;
+  border-bottom: 4px solid #3E30C2 !important;
+}
+.react-tabs__tab {
+    display: inline-block;
+    border:none !important; 
+    border-bottom: none !important;
+    
+    list-style: none !important;
+}
+
+
+
+
+.tab-tier:hover {
+
+    border-bottom: 4px solid #3E30C2 !important;
+}
+
+.active {
+    color: #3E30C2 !important;
+    border-bottom: 4px solid #3E30C2 !important;
+}
+.Overal-tab{
+    color: #000;
+  /* Heading / H3 - Bold */
+  font-family: Poppins;
+  font-size: 16px !important;
+  font-weight: 500 !important; 
+  /* margin-top: 2% !important;  */
+  margin-left:2% 
+}
+
+
+.box-button{
+    /* display: flex; */
+width: 40px;
+height: 40px;
+/* padding: 10px; */
+/* flex-direction: column; */
+justify-content: center !important;
+align-items: center !important;
+/* gap: 10px; */
+border-radius: 40px;
+border: 1px solid var(--nuetrals-nuetrals-n-400, #4A4958);
+background: #4A4958 !important;
+}
+.Overal-tab1{
+    color: #000;
+  /* Heading / H3 - Bold */
+  font-family: Poppins;
+  font-size: 16px !important;
+  font-weight: 500 !important; 
+padding-top:9px;
+margin-left: 15px !important;
+}
+
+
+
+
+/* slider tooltip */
+
+.css-nnid7-MuiSlider-valueLabel {
+  z-index: 1;
+  white-space: nowrap;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transform: translateY(-100%) scale(0);
+  -moz-transform: translateY(-100%) scale(0);
+  -ms-transform: translateY(-100%) scale(0);
+  transform: translateY(-100%) scale(0);
+  position: absolute;
+  background-color: #6257CD !important;
+  border-radius: 2px;
+  color: #fff !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 0.25rem 0.75rem;
+  top: -10px;
+  transform-origin: bottom center;
+}
+
+
+
+
+
+
+.compare-cell{
+  width:140px !important;
+}
+
+
+
+
+
+
+
+/* 
+.tab-co{
+
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+} */
+
+
+.chha{
+  height: 700px !important;
+}
+
+/* chart color change here */
+
+/* box1 */
+
+.css-nq2z8j-MuiChartsLegend-mark {
+  /* x: 0; */
+  /* y: 0; */
+  width: var(--ChartsLegend-itemMarkSize);
+  height: var(--ChartsLegend-itemMarkSize);
+  fill: #C0392B !important;
+}
+
+
+.css-1vuxth3-MuiBarElement-root {
+  stroke: none;
+  shape-rendering: crispEdges;
+  fill: #C0392B !important;
+  -webkit-transition: opacity 0.2s ease-in,fill 0.2s ease-in;
+  transition: opacity 0.2s ease-in,fill 0.2s ease-in;
+  opacity: 1;
+}
+
+
+/* box 2 */
+
+
+.css-hbowm0-MuiChartsLegend-mark {
+  /* x: 0; */
+  /* y: 0; */
+  width: var(--ChartsLegend-itemMarkSize);
+  height: var(--ChartsLegend-itemMarkSize);
+  fill: #57886C !important;
+}
+
+.css-6kig8r-MuiBarElement-root {
+  stroke: none;
+  shape-rendering: crispEdges;
+  fill: #57886C !important;
+  -webkit-transition: opacity 0.2s ease-in,fill 0.2s ease-in;
+  transition: opacity 0.2s ease-in,fill 0.2s ease-in;
+  opacity: 1;
+}
+
+/* box 3 */
+
+
+.css-1a4a8p3-MuiChartsLegend-mark {
+  /* x: 0; */
+  /* y: 0; */
+  width: var(--ChartsLegend-itemMarkSize);
+  height: var(--ChartsLegend-itemMarkSize);
+  fill: #b5b4be !important;
+}
+
+
+.css-156rdpn-MuiBarElement-root {
+  stroke: none;
+  shape-rendering: crispEdges;
+  fill: #b5b4be !important;
+  -webkit-transition: opacity 0.2s ease-in,fill 0.2s ease-in;
+  transition: opacity 0.2s ease-in,fill 0.2s ease-in;
+  opacity: 1;
+}
+
+.d-tab{
+  height: 500px;
+  overflow-y: scroll;
+}
+
+/* .d-tab::-webkit-scrollbar {
+  display: none;
+} */
+.weakkk{
+ display: flex;
+ justify-content: space-between;
+  gap: 90px;
+  margin-top: 5%;
+  margin-left: 5%;
+  /* margin-right: 7%; */
+  
+}
+.leftp{
+  width:60%;
+}
+
+.rightp{
+  width:30%;
+}
+
+@media (max-width:1055px){
+  .weakkk{
+    gap: 60px;
+  }
+}
+
+@media (max-width:1305px){
+  .tabb{
+    margin-left: 2% !important;
+  }
+  .weakkk{
+    gap: 60px;
+    /* margin-left: 3%; */
+  }
+}
+
+@media (max-width:1295px){
+  .weakkk{
+    display: flex;
+    justify-content: space-between;
+     gap: 30px;
+     margin-top: 5%;
+     margin-left: 5.4%;
+     margin-right: 7%;
+     
+   }
+}
+
+
+
+
+.progress-bar-container {
+  width: 30%;
+  height: 70px;
+  /* background-color: pink; */
+}
+
+.progress-bar {
+  width: 25%;
+  height: 100%;
+  background-color:#aaa3eb82;
+  text-align: left;
+  color: white;
+  border-right:5px solid #6257CD;
+  line-height: 20px;
+}

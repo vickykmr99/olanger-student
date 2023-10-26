@@ -1,0 +1,119 @@
+/* .esamyboxx{
+border-radius: 8px;
+background-color: black !important;
+box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+margin-top: 2% !important;
+}
+
+
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+ 
+    min-width: 33px !important;
+ padding:unset !important;
+}
+
+
+.react-tabs__tab--selected {
+  
+    border:none !important;
+    border-bottom: none !important;
+    bottom: -1px;
+    background:unset !important;
+    border-color: unset !important;
+
+} */
+
+
+
+.examys-gpt-main{
+    overflow-x: hidden;
+}
+
+
+
+
+/* tab part */
+
+/* .react-tabs__tab--selected {
+    border-bottom: 2px solid #3E30C2;
+    color: #3E30C2;
+    border-radius: 5px 5px 0 0;
+}
+.react-tabs__tab--selected:hover {
+  
+    border-bottom: 2px solid #3E30C2;
+    color: #3E30C2;
+    
+} */
+
+
+
+
+
+.view-btn-si{
+    margin-left: 12% !important;
+    
+}
+
+
+.gpt-main-tab:hover{
+    background-color: none;
+   
+}
+
+
+.gpt-tab{
+    text-decoration: none;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.gpt-tab:hover{
+    color:#3E30C2;
+    border-bottom:2px solid #3E30C2;
+}
+
+
+
+.view-btn-examys{
+    white-space: nowrap;
+    border-radius: 3.628px;
+background: #3E30C2 !important;
+color:  #FFF !important;
+font-family: Poppins;
+font-size: 13.604px;
+font-style: normal;
+padding: 4px 14px ;
+border: none !important;
+font-weight: 700;
+line-height: 25.394px; /* 186.667% */
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1190px) {
+    .view-btn-si{
+        margin-left: 6% !important;
+        
+    }
+}
+@media (max-width:1099px) {
+    .view-btn-si{
+        margin-left: 3% !important;
+        
+    }
+}
+@media (max-width:1054px) {
+    .view-btn-si{
+        margin-left: 0% !important;
+        
+    }
+}

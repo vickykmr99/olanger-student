@@ -1,0 +1,30 @@
+/* .active div{
+    background-color: #ed5066;
+} */
+.listItemText {
+  position: relative;
+  right: -10px;
+}
+.drawer_icon{
+  color: #ee2028;
+}
+.drawer_text{
+  color: #ee2028 !important;
+}
+.left-bar{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (min-width: 764px) and (max-width: 1023px) {
+  .logout-button1 {
+    width: 92px;
+    margin-top: -5px !important;
+    margin-left: 18px !important;
+  }
+}
+@media screen and (min-width: 392px) and (max-width: 550px) {
+  .logout-button1 {
+    margin-left: -82px !important;
+    width: 92px;
+    margin-top: -5px !important;
+  }
+}

@@ -1,0 +1,83 @@
+/* *{
+    overflow: hidden !important;
+} */
+
+.examys-inspire-main-container{
+    overflow-x: hidden;
+}
+
+.first-part-container{
+    display: flex;
+    width: 100%;
+    margin-top: 17%;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    margin-bottom: 20px !important;
+    flex-direction: column;
+    gap: 76px;
+}
+
+
+.gray-box-card{
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+
+
+.view-btn-examy{
+    white-space: nowrap;
+    border-radius: 3.628px;
+background: #3E30C2 !important;
+color:  #FFF !important;
+font-family: Poppins;
+font-size: 13.604px;
+font-style: normal;
+padding: 4px 14px ;
+border: none !important;
+font-weight: 700;
+line-height: 25.394px; /* 186.667% */
+
+}
+
+
+
+
+
+@media (max-width:1600px){
+    .gray-box-card{
+        margin-left: 7% !important;
+        margin-right: 7% !important;
+        margin-top: 1%;
+    }
+    .box-card-first{
+        margin-left:7% !important;
+        margin-right:7% !important;
+    }
+}
+
+
+
+@media (max-width:1403px){
+    .gray-box-card{
+        margin-left: 7% !important;
+        margin-right: 7% !important;
+        margin-top: 1%;
+    }
+    .box-card-first{
+        margin-left:7% !important;
+        margin-right:7% !important;
+    }
+}
+
+@media (max-width:1054px){
+    .gray-box-card{
+        margin-left: 7% !important;
+        margin-right: 7% !important;
+        margin-top: 1%;
+    }
+    .box-card-first{
+        margin-left:7% !important;
+        margin-right:7% !important;
+    }
+}

@@ -1,0 +1,95 @@
+/* @media (min-width: 900px) */
+.css-1567k1f-MuiGrid-root
+{
+    max-width:40% !important;
+}
+.css-1w9lnhz-MuiGrid-root {
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+.gridcontainer{
+    margin-top: 15% !important;
+    margin-bottom: 10% !important;
+    justify-content: space-between;
+}
+.viewdetcard {
+
+
+
+    gap: 6px;
+    border-radius: 8px;
+    width: 300px !important;
+    height: 320px !important;
+    /* margin-top: 5%; */
+    background: #FFFFFF;
+    /* margin-left: 15%; */
+    /* Nuetrals/Nuetrals/N200 */
+
+    border: 1.5px solid #6257CD !important;
+}
+.focus-pack-tag{
+    font-size: 14px;
+    color: #6257CD;
+}
+
+
+
+.focus-pack-tag{
+    font-size: 14px;
+    color: blue;
+}
+
+.right-offer-details{
+    row-gap: 10px !important;
+}
+.view-details-sec{
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.cardhead{
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 27px !important;
+    margin-left: 5% !important;
+}
+.right-offer-details{
+    row-gap: 10px !important;
+    margin-top: 3%;
+    margin-right: 5%;
+    align-items: center;
+    width: 120%;
+    
+}
+/* .offer-details-sec{
+    width: 50%;
+} */
+.offer-d{
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+.flat-percentage, .examy-color{
+    color:#C0392B;
+}
+.more-offer{
+    color: #6257CD;
+    border-bottom: 1px solid #6257CD;
+    cursor:pointer;
+    color:#6257CD;
+    border-bottom: 1px solid blue;
+    cursor: pointer;
+}
+.more-offer1{
+    cursor:pointer;
+    color:#6257CD;
+}

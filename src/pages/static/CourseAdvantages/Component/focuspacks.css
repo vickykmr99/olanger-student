@@ -1,0 +1,31 @@
+/* .tab-list-t{
+    color: #3E30C2 !important;
+    border:1px solid #3E30C2 !important;
+font-family: Poppins;
+font-size: 20px !important;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize !important;
+padding: 10px;
+}
+
+.tab-list-t:focus{
+    color: white !important;
+    background-color:#3E30C2 !important ;
+    border-radius: 100px !important;
+} */
+
+.css-1aquho2-MuiTabs-indicator {
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    width: 100%;
+    -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color:transparent !important;
+    /* text-transform: capitalize !important; */
+}
+
+
+

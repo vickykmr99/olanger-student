@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); 
+
+.midheaing{
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 21px !important;
+}
+/* .middesc{
+    font-family: Poppins !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 20.8px !important;
+} */
+.listctrl ul li{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.8px;
+    color:#3E3D4D;
+}
+
+.css-46bh2p-MuiCardContent-root {
+    padding: 7px !important;
+}
+.btn{
+    /* width: 10% !important; */
+    /* height:40px; */
+    white-space: nowrap;
+   
+}
+.ctrl:hover{
+    color: #FFF;
+}
+
+
+.css-16tmcdv-MuiPaper-root-MuiCard-root {
+     height: 140px !important;
+}
+
+.btc_control{
+    white-space: nowrap;
+    border-radius: 3.628px;
+    background: #3E30C2 !important;
+    color:  #FFF !important;
+    font-family: Poppins;
+    font-size: 13.604px;
+    font-style: normal;
+    padding: 4px 10px ;
+    border: none !important;
+    font-weight: 700;
+    line-height: 25.394px;
+}
+@media only screen and (max-width: 1100px) {
+   .btn {
+     margin-left: -3% !important;
+     
+     font-size: 13px !important; 
+     
+    }
+    .css-sghohy-MuiButtonBase-root-MuiButton-root {
+        min-width: unset !important;
+    }
+  }
+  @media only screen and (max-width: 1065px) {
+    .btn {
+      margin-left: -5% !important;
+      
+      font-size: 12px !important; 
+      
+     }
+     .css-sghohy-MuiButtonBase-root-MuiButton-root {
+         min-width: unset !important;
+     }
+   }
+   .css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+    text-decoration: none !important;
+   }

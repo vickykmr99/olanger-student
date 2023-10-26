@@ -1,0 +1,41 @@
+.table-main-contain{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+
+.section-table-headcell{
+    width: 200px;
+}
+.sec-part{
+    padding: 16px;
+}
+
+th{
+    border: 1.4px solid gray;
+    padding:26px;
+    border-collapse: collapse;
+}
+table, td {
+    border: 1.4px solid gray;
+    /* padding:26px; */
+    border-collapse: collapse;
+    /* text-align:center; */
+  }
+
+  .progress-bar-container {
+    width: 30%;
+    height: 70px;
+    /* background-color: pink; */
+  }
+
+  .progress-bar {
+    width: 25%;
+    height: 100%;
+    background-color:#aaa3eb82;
+    text-align: left;
+    color:black !important;
+    border-right:5px solid #6257CD;
+    line-height: 20px;
+  }

@@ -1,0 +1,105 @@
+.background {
+    height: 200px;
+    background: rgba(228, 253, 253, 0.4) !important;
+    box-shadow: 0px 8px 10px rgba(159, 159, 159, 0.5) !important;
+    /* margin-top: 8% !important; */
+    background-color: rgba(228, 253, 253, 0.4) !important;
+    position: relative;
+    margin-bottom: 0.5%;
+    text-align: center !important;
+
+}
+
+.backgroundsecond {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 44px 88px; */
+    /* gap: 32px; */
+
+    height: 100%;
+
+    background: rgba(228, 253, 253, 0.4) !important;
+    box-shadow: 0px 8px 10px rgba(159, 159, 159, 0.5) !important;
+    /* margin-top: 8% !important; */
+    background-color: rgba(228, 253, 253, 0.4) !important;
+    position: relative;
+    margin-bottom: 0.5%;
+    text-align: center !important;
+
+
+}
+
+.backgroundthird {
+
+
+
+    height: 524px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 10px rgba(159, 159, 159, 0.5);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.aboutcoursecards {
+
+    align-items: center;
+    text-align: center;
+
+
+    width: 292px;
+    height: 100%;
+
+    background: rgba(232, 243, 254, 0.4);
+    border-radius: 8px;
+    margin-bottom: 2%;
+
+    /* Inside auto layout */
+
+
+    order: 1;
+    flex-grow: 1;
+}
+
+.ourteam {
+
+
+
+    /* gap: 32px; */
+
+    height: 534px;
+    background: rgba(222, 205, 222, 0.8);
+    /* box-shadow: 0px 8px 10px rgba(19, 159, 159, 0.5); */
+
+    /* Inside auto layout */
+
+    /* flex: none; */
+    /* order: 4; */
+    /* flex-grow: 0; */
+}
+
+.ourteamcard {
+    
+
+    
+    gap: 6px;
+
+    width: 227.2px;
+    height: 242px;
+
+    background: #FFFFFF;
+    /* Nuetrals/Nuetrals/N200 */
+
+    border: 1px solid rgba(142, 141, 151, 0.5);
+    box-shadow: -2px -2px 8px rgba(125, 125, 125, 0.5), 2px 2px 8px rgba(125, 125, 125, 0.5);
+    border-radius: 8px;
+
+   
+
+}

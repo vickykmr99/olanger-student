@@ -1,0 +1,65 @@
+.section-partition {
+    /* background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.438), rgba(255, 0, 0, 0.449)), url(../../images/static/bg_partition.JPG); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+
+}
+.landing{
+    overflow-x: hidden !important;
+}
+.section-partition h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: #ffffff;
+    position: relative;
+    top: 20%;
+}
+
+@media only screen and (max-width: 450px) {
+    .section-partition h2 {
+        font-size: 35px;
+    }
+}
+.start{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 60px;
+
+/* position: absolute; */
+width: 300px;
+text-align: center  !important;
+/* height: 58px; */
+margin-left:42% !important;
+/* margin: 5% !important; */
+margin-bottom: 4% !important;
+
+/* top: 2130px; */
+
+background: #3E30C2;
+border-radius: 8px;
+
+
+/* Heading / H2 - Bold */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+/* identical to box height */
+
+
+color: #d3cce5;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+
+}

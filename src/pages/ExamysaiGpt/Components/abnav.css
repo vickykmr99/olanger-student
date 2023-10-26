@@ -1,0 +1,35 @@
+.main-navbar-logo {
+  width: 90px;
+  height: 90px;
+  margin-left: 2% !important;
+  /* margin-top: 1% !important; */
+  /* margin-top: -2% !important; */
+  /* margin-top: 10px !important; */
+}
+
+
+
+.index-select {
+    background-color: transparent;
+    border: none !important;
+    height: 20px;
+    /* width: 160px; */
+    outline: none !important;
+    color: #72717D;
+  /* Body/B2 - Reg */
+  font-family: Poppins  !important;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 2%;
+  /* margin-top:1.5% !important; */
+  }
+  
+
+  
+.button-index{
+    color: #72717D; 
+    /* margin-top: -2.2% !important; */
+    /* margin-left: 2% !; */
+    /* padding:-6% !important; */
+  }
+  

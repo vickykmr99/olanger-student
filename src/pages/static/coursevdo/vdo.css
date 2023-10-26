@@ -1,0 +1,47 @@
+  .vdobox{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .header__section {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(70, 70, 172);
+  }
+  
+  .header__text {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .playerDiv {
+    width:100%;
+    position: relative;
+  }
+  .controls__icons {
+    color: white;
+    font-size: 50;
+    transform:scale(0.9);
+}
+
+.controls__icons:hover {
+    color: #fff;
+    transform:scale(1);
+}
+.volume__slider {
+    width: 100;
+    margin-top: -50px;
+    margin-left: 130px;
+}
+.bottom__icons {
+    color:#999;
+}
+
+.bottom__icons:hover {
+    color: white;
+}

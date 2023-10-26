@@ -1,0 +1,235 @@
+.pdfpage {
+  height: 100%;
+}
+
+.pinkbox {
+
+  position: absolute;
+  width: 1519px;
+  height: 52%;
+  left: 0%;
+  top: 130px;
+
+  background: rgba(235, 194, 241, 0.5);
+}
+
+.pinkboxtext {
+  position: absolute;
+  left: 6.45%;
+  right: 47.02%;
+  top: 27.11%;
+  bottom: 40.44%;
+  font-family: 'Poppins';
+  color: #4A4958;
+
+}
+
+.pdfsidebar a {
+  padding: 10px;
+
+
+  font-size: 12px;
+  color: #080909;
+  display: block;
+  border-bottom: dashed;
+  border-width: -10px;
+  border-width: thin;
+  border-color: rgba(169, 169, 169, 0.658);
+  /* position:fit-content; */
+}
+
+.pdfsidebar a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px;
+  /* Same width as the sidebar + left position in px */
+  font-size: 28px;
+  /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .pdfsidebar {
+    padding-top: 15px;
+   
+  }
+
+
+  .pdfsidebar a {
+    font-size: 18px;
+  }
+}
+
+.pdfsidebar {
+  position: absolute;
+  width: 175px;
+  height: 111%;
+  left: 38px;
+  top: 585px;
+  padding: 2px;
+  background: rgb(249, 250, 253);
+
+  z-index: 1;
+}
+
+.pdfpage {
+  background-color: #EEECFE;
+}
+
+.orangebox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 23px;
+  gap: 20%;
+
+  height: 31px;
+
+  background: #fbe7da;
+  border-radius: 13px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 210px;
+  height: 23px;
+  margin-left: 7%;
+  /* Body/B2 - Med */
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height */
+
+
+  /* Text on highlights/orange */
+
+  color: #f87b06;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.btnlanguage {
+  border: white;
+  background-color: white;
+  padding: 5px 2px;
+  row-gap: 1%;
+  cursor: pointer;
+  display: inline-block;
+  /* margin-left: 19%; */
+  text-align: "center";
+  
+}
+
+.btnlanguage:hover {
+  text-decoration: underline;
+}
+
+.btnyr {
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: inline-flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 4px;
+
+  align-items: flex-start;
+  width: 55px;
+  height: 40px;
+  cursor: pointer;
+  /* Highlights/green */
+
+  background: white;
+  border: rgba(145, 143, 143, 0.896);
+
+
+  /* Inside auto layout */
+
+  flex: 0;
+  order: 0;
+  flex-grow: 0;
+}
+
+.btnyr:hover {
+  background-color: #d9f9e7;
+  border: 0.5px solid #818efb;
+  border-radius: 3px;
+  align-items: center;
+  text-decoration: double;
+  font-weight: bold;
+  color: rgb(105, 105, 182) !important;
+}
+
+.bluebox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 9px;
+  gap: 8%;
+  margin-left: 5%;
+  width: 200px;
+  height: 23px;
+  font-family: 'Poppins';
+  font-style: normal;
+  /* Highlights/Blue */
+
+  background-color: #e2e4f7;
+  border-radius: 13px;
+  color: #6c7bfa;
+
+}
+
+.darkbluebox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 17px 317px;
+  gap: 10px;
+
+  position: absolute;
+  width: 1261px;
+  height: 87px;
+  left: 2px;
+  top: 0px;
+
+  background: #7469DF;
+}
+
+.Explorebox {
+  box-sizing: border-box;
+  margin-top: 1%;
+  position: relative;
+  width: 201.31px;
+  height: 181px;
+  /* left: 10px; */
+
+
+  background: #FFFFFF;
+  border: 3px solid #6C60E1;
+  box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.imagebox {
+  position: absolute;
+  width: 120.52px;
+  height: 87px;
+  left: 34px;
+  top: 10%;
+
+  /* background: url(https://firebasestorage.googleapis.com/v0/b/olanger-2f470.appspot.com/o/kindpng_1298591%201.png?alt=media&token=d1804319-f92b-48d5-af7e-84bfddd8d6d2); */
+}

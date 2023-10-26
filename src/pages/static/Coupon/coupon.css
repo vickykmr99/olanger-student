@@ -1,0 +1,147 @@
+.main-grid-container {
+    margin-top: 13%;
+    align-items: center;
+}
+
+.sub-container {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.20);
+    width: 70%;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+.coupon-outline {
+    margin-top: 3%;
+}
+
+.coupon-head {
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 26px !important;
+
+}
+
+.head-new-user {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 26px !important;
+    font-family: Poppins !important
+}
+
+.head-lunch {
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+    font-family: Poppins !important;
+    color: #4A4958;
+    margin-top: 1% !important;
+}
+
+.coupon-btn {
+    width: 50%;
+    height: 35px;
+    border-color: #C0392B !important;
+}
+
+.buttn1 {
+    color: #C0392B;
+    font-weight: 600 !important;
+}
+
+.buttn2 {
+    color: #C0392B;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+.saveprice {
+    color: #57886C;
+    font-weight: 500 !important;
+}
+
+.package-info {
+    margin-top: 1% !important;
+    width: 20%;
+    grid-area: 2px !important;
+    /* border: 1px solid #8E8D9780; */
+    border-radius: 4px !important;
+    border: 1px solid var(--nuetrals-nuetrals-n-200, rgba(142, 141, 151, 0.50));
+    text-align: center;
+    border-radius: 2px;
+}
+
+.exist-user-head {
+    margin-top: 4% !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    line-height: 26px !important;
+    font-family: Poppins !important;
+    color: #4A4958;
+}
+
+.exist-user-subhead {
+    font-size: 16px !important;
+    font-weight: 550 !important;
+    line-height: 24px !important;
+    font-family: Poppins !important;
+    color: #F671D9;
+}
+
+.exist-user-desc {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 2 !important;
+    font-family: Poppins !important;
+    color: #4A4958;
+}
+
+.link-membr {
+    font-size: 15px !important;
+    font-weight: 550 !important;
+    line-height: 2 !important;
+    font-family: Poppins !important;
+    color: #6257CD;
+    border-bottom: 1px solid #6257CD;
+    width: 240px;
+}
+
+.note-head {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    line-height: 3 !important;
+    font-family: Poppins !important;
+    color: #201E31;
+}
+
+.examsys-info {
+    margin-top: 1% !important;
+    width: 30% !important;
+    grid-area: 2px !important;
+    border: 1px solid #8E8D9780;
+    text-align: center;
+    border-radius: 4px !important;
+    border: 1px solid var(--nuetrals-nuetrals-n-200, rgba(142, 141, 151, 0.50));
+    margin-bottom: 3% !important;
+}
+
+.examys-btn {
+    width: 60%;
+    height: 65px;
+    display: flex !important;
+    flex-direction: column !important;
+    border-color: #C0392B !important;
+    text-align: center;
+
+}
+
+.examys-head {
+    margin-top: 3% !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    font-family: Poppins !important;
+    color: #201E31 !important;
+}

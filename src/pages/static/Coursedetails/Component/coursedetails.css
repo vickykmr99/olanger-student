@@ -1,0 +1,247 @@
+/* import hee for diffrent font weight */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+.react-tabs__tab--selected {
+    background: #F7F6FF !important;
+}
+
+
+
+.coursepage {
+    background-color: #F7F6FF;
+    padding: 2%;
+}
+
+.main-container-course {
+    display: flex;
+    gap: 35px;
+    padding: 15px;
+
+}
+
+.sidebar-category {
+    /* width: 15%; */
+    /* background-color: lightcoral; */
+}
+
+.sidebar-category-list {
+    background-color: white;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.category-name {
+    text-transform: capitalize !important;
+    padding: 12px;
+    color: black !important;
+    white-space: nowrap;
+    font-weight: 500;
+    border-bottom: 2px dashed gray;
+}
+
+
+
+.category-name:hover {
+    color: #3E30C2 !important;
+    border-bottom: 3px solid crimson !important;
+
+}
+
+
+
+
+
+
+
+
+
+.right-cards-part {
+    width: 85% !important;
+    /* margin-left: 13%; */
+}
+
+.cards-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.react-tabs__tab--selected {
+    /* background: #fff; */
+    border-color: #aaa;
+    color: black;
+    border-radius: 5px 5px 0 0;
+}
+
+.course-tab {
+    display: flex;
+    white-space: nowrap;
+    gap: 30px;
+    list-style: none;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    font-weight: 800 !important;
+    line-height: 26px;
+    letter-spacing: 0em;
+    list-style: none !important;
+    background-color: none !important;
+    padding-bottom: 10px;
+    border: none;
+    color: var(--nuetrals-nuetrals-n-900, #141226);
+    /* Title/T1 - semi Bold */
+    font-family: 'Poppins' !important;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.tab-card-part {
+    border: 1px solid black;
+    width: 311px;
+    border-radius: 30px !important;
+    height: 281.77px;
+    /* margin-top: 20px; */
+    border-color: black;
+    box-shadow: 4.18987px 4.18987px 4.18987px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.tab-m {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    font-weight: 800 !important;
+    line-height: 26px;
+    letter-spacing: 0em;
+    list-style: none !important;
+    background-color: none !important;
+    padding-bottom: 10px;
+
+}
+
+.tab-n:focus,
+.tab-n:active {
+    list-style: none !important;
+    color: #F96255;
+    /* Title/T1 - semi Bold */
+    font-family: 'Poppins' !important;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 0.125rem;
+    border-bottom: 2px solid #F96255;
+
+}
+
+/* .activeA {
+    background: #F7F6FF;
+    color: crimson;
+    border-bottom: 4px solid crimson;
+} */
+
+.tab-cards {
+    display: flex;
+    gap: 15px;
+    /* margin-top: -25px; */
+}
+
+.view-btn {
+    white-space: nowrap;
+    background-color: #3E30C2 !important;
+    text-transform: capitalize !important;
+    border-radius: 5px;
+    color: #fff;
+    border: none !important;
+    height: 35px;
+    font-weight: 500;
+    /* width: 10px !important; */
+    /* padding: 10px 10px !important; */
+    /* margin-bottom: 10px; */
+}
+
+.view-btn:hover {
+    color: white;
+
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-roo {
+    padding: unset !important;
+}
+
+
+.contain-c {
+    display: grid;
+    margin-right: 30px;
+    gap: 16px;
+    flex-wrap: wrap !important;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+}
+
+
+/* 
+.benefit-ex-part{
+    text-align:center;
+    max-width:300px;
+    margin-left: 30px !important;
+} */
+
+
+
+
+
+
+
+
+
+@media (max-width:1054px) {
+    /* .benefit-ex-part{
+        margin-left: 20px !important;
+    } */
+
+    .tab-n {
+        font-size: 18px;
+    }
+
+    .right-cards-part {
+        /* margin-left: 10% !important; */
+    }
+
+    .contain-c {
+
+        margin-right: 30px;
+        gap: 9px;
+
+    }
+
+
+    .sidebar-category-list {
+        background-color: white;
+        padding: 10px;
+    }
+
+    .category-name {
+        text-transform: capitalize !important;
+        /* padding: 12px; */
+        color: black !important;
+        white-space: nowrap;
+        font-weight: 500;
+        font-size: 13px !important;
+        border-bottom: 2px dashed gray;
+    }
+
+}
+
+/* .css-46bh2p-MuiCardContent-root {
+    padding: 2px !important;
+} */
+
+
+/* 
+.react-tabs__tab--selected {
+    background-color: unset !important;
+}
+.react-tabs__tab--selected:hover {
+    border-bottom: unset !important;
+    color:unset !important;
+} */

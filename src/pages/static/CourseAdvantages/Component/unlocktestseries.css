@@ -1,0 +1,36 @@
+.cardscroll::-webkit-scrollbar {
+    display: none;
+}
+.cardscroll{
+    
+        -ms-overflow-style: none;  
+        scrollbar-width: none;  
+      
+}
+.listctrl ul li{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.8px;
+    color:#3E3D4D;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    min-width: unset !important;
+}
+
+
+.react-multiple-carousel__arrow {
+    position: absolute;
+    outline: 0;
+    transition: all .5s;
+    border-radius: 35px;
+    z-index: 1000;
+    border: 0;
+    background: #B8B8B8 !important;
+    min-width: 43px;
+    min-height: 43px;
+    opacity: 1;
+    cursor: pointer;
+}

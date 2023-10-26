@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); 
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: unset !important;
+}
+.olngbtn{
+    font-family: Poppins !important;
+    background-color: #3E30C2 !important;
+    height: 45px;
+    border-radius: 15px !important;
+    padding: 0px 20px 0px 20px !important;
+    font-size: large !important;
+    margin-left: 5% !important;
+}
+
+.navdesc{
+    color: black;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    font-family: Poppins !important;
+    text-align: center;
+}

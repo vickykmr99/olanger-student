@@ -1,0 +1,78 @@
+/* *{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+} */
+
+
+.inspire-bg{
+    background-color: GhostWhite;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    overflow-x:hidden !important; 
+   
+}
+
+#abc{
+    /* overflow-y:hidden; */
+    /* margin-left: 40px; */
+ 
+}
+#abc .abc g_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* gap: 1px; */
+}
+
+#abc .abc {
+    display: flex;
+    width: 410px;
+    padding: 8px;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 10px;
+    outline: none;
+    /* border: 0.2px solid rgba(142, 141, 151, 0.40); */
+    background: #FFF;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.20);
+    /* margin-left: 13px;
+    margin-left: 5%; */
+  
+        /* display: grid !important;
+        margin-right: 30px;
+        gap: 16px;
+        flex-wrap: wrap !important;
+        grid-template-columns: repeat(3, minmax(300px, 1fr)) !important; */
+  
+}
+
+#abc .abc h2 {
+    /* font-family: Poppins; */
+    font-size: 16px;
+   
+    font-weight: 700;
+    line-height: 2;
+}
+
+#abc .abc p {
+    /* font-family: Poppins; */
+    font-size: 14px;
+   
+    font-weight: 400;
+    line-height: 7px;
+}
+
+@media (max-width:1054px){
+    #abc{
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .gapctrl{
+        line-height: 1.7px;
+    }
+}

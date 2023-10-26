@@ -1,0 +1,2 @@
+export const SET_TEST_SERIES_ID = "SET_TEST_SERIES_ID";
+export const SET_TEST_SERIES = "SET_TEST_SERIES";

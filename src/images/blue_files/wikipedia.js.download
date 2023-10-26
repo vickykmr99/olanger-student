@@ -1,0 +1,15 @@
+$(document).ready(function(){var wikipediaWrapper=document.querySelector('#wikipedia-wrapper');const init=async(tags)=>{let wikiResponse=await getWikipediaData(tags[0])
+if(wikiResponse.query.pages){console.log('Wiki articles found',wikiResponse.query.pages)
+let html
+let firstResult=Object.keys(wikiResponse.query.pages)[0]
+if(wikiResponse.query.pages[firstResult].extract){console.log('Wiki article extract found')
+let html=wikiResponse.query.pages[firstResult].extract
+wikipediaWrapper.innerHTML=html
+$("#wikipedia-wrapper p").each(function(i){if($.trim($(this).text())==""||i>3){this.remove();}});gtag('event','wikipedia',{'event_category':'success','event_label':'true','value':document.location.href,'non_interaction':true});}else{gtag('event','wikipedia',{'event_category':'empty search result','event_label':tags[0],'value':document.location.href,'non_interaction':true});}}
+console.log('Wiki response',wikiResponse)}
+var getWikipediaData=async(tag)=>{try{var query=await fetch(`https://freeimg.net:4000/proxy/${tag}`);var response=await query.json();return(response);}catch(e){console.log('Wiki error',e)
+gtag('event','wikipedia',{'event_category':'error','event_label':e.message,'value':tag,'non_interaction':true});}}
+if(wikipediaWrapper){let tags=wikipediaWrapper.dataset.tags
+if(tags){console.log('Wiki element with tags found',tags);tags=JSON.parse(tags).split(',')
+console.log('Wiki tags',tags)
+init(tags);}else{gtag('event','wikipedia',{'event_category':'tags not found (category)','event_label':document.location.href,'non_interaction':true});}}});

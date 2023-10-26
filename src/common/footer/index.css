@@ -1,0 +1,145 @@
+@import url("https://www.solidbackgrounds.com/images/1920x1080/1920x1080-blue-solid-color-background.jpg");
+.footer-image {
+  background-position: center;
+  background-color: #3E30C2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+ 
+}
+.footerlogo{
+  margin-bottom: 100px;
+  height: 5px;
+  width: 50px;
+}
+.footer-links-number-container {
+  height: 50vh;
+  display: flex;
+  gap: 20px;
+  margin: 6%;
+  justify-content: space-between;
+}
+
+.footer-contact-quicklinks {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins';
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins';
+  margin-right: 1%;
+}
+
+.footer-heading {
+
+  margin-bottom: 7%;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+
+}
+
+
+ .heading{
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 40px;
+  display: flex;
+  color: #fff !important;
+  width:300px ;
+
+}
+
+.footer-content {
+line-height: 27px;
+line-break:normal;
+font-family:Poppins;
+letter-spacing: 0em;
+text-align: left;
+color: #BFBBEB;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 149.5%;
+
+}
+.foo-social-media{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  margin: auto;
+  margin-bottom: 39px;
+}
+ @media only screen and (max-width: 200px) {
+  
+  .footer-links-number-container {
+   max-width: 400px;
+   justify-content: space-between;
+   margin-left:auto ;
+   margin-right: auto;
+   padding: 0 4px;
+  }
+  .footer-contact-quicklinks {
+   padding: 0px;
+  }
+
+  .footer-heading {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .footer-content {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .footer-copyright {
+    font-size: 10px;
+    
+  }
+  .footersite{
+    
+   
+    line-height: 20px;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+  }
+  
+}
+@media only screen and (max-width: 780px){
+  .footerlogo{
+    align-items: center;
+    margin-bottom: 0px;
+    display: flex;
+    margin: auto !important;
+    height: 200px;
+    width: 350px;
+  }
+  .footer-links-number-container{
+    margin: auto !important;
+  }
+}
+@media only screen and (max-width: 400px){
+  .footerlogo{
+    height: 180px;
+    width: 250px;
+  }
+}

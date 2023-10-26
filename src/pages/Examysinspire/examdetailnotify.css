@@ -1,0 +1,67 @@
+.main {
+    margin-top: 14%;
+}
+
+.first-headline {
+    font-family: Poppins !important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    background-color:#6257CD;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 7px;
+    text-align: start;
+    width: 80%;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.00938em;
+    white-space: nowrap;
+    /* padding-left: 35px; */
+}
+.tag-line{
+    margin-top: 3% !important;
+    margin-bottom: 2% !important;
+    font-size: 16px !important;
+    font-weight: 700 !important; 
+}
+
+
+.Grid_control {
+    max-height: 41vh;
+    overflow-y: scroll;
+    cursor: pointer;
+}
+
+.main .Grid_control .typ {
+    margin-bottom: 10px;
+    padding: 3px 32px 0px 13px;
+}
+
+.main .Grid_control {
+    border: 1px solid grey;
+    height: 400px;
+    border-radius: 5px;
+}
+.content-d{
+    line-height: 2;
+    margin: 25px 10px;
+}
+
+
+.more-details-footer{
+    color:  #201E31;
+
+/* Title/T2 - semi Bold */
+/* font-family: Poppins !important; */
+margin-top: 3%;
+text-align: center !important;
+margin-bottom:5%;
+font-size: 18px;
+font-style: normal;
+font-weight: 500 !important;
+line-height: normal;
+}

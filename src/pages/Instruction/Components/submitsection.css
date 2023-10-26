@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+
+Table{
+    /* border: 1px solid black; */
+    padding: 6px;
+    border-collapse: collapse;
+    /* text-align: center !important; */
+}
+
+.ss-bm {
+  margin-top:30px; 
+  margin-left: 73%;
+  display: flex;
+  flex-direction: row;
+}
+.ssbtn {
+  height:40px;
+  width:50px;
+  border-radius: 5px;
+  background: #3e30c2 !important;
+}
+
+.ss-th {
+  background: #c4bff2;
+  height:80px !important;
+}

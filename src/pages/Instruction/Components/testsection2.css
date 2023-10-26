@@ -1,0 +1,59 @@
+.css-18z10o7-MuiGrid-root {
+    margin-top: 7px !important;
+}
+
+.css-1kd29ki-MuiGrid-root {
+    margin-top: 7px !important;
+}
+
+
+.num {
+    display: flex;
+    width: 60.8px;
+    padding: 8px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3E3D4D;
+}
+
+.tab-paper{
+    border:1px solid lightgray;
+    padding:6px;
+    color:black;
+    font-weight:500;
+    border-radius: 4px;
+    outline: 1px solid lightgray;
+}
+.skip-btn{
+    border-radius:50px;
+    background-color: gray;
+    outline: none;
+    color: white;
+    padding:2px 10px;
+    border:none;
+}
+.ansCorrect{
+    background:#008000;
+    color:white;
+    padding:4px 10px !important
+}
+.thumb{
+    border: 1px solid lightgray;
+    outline: none;
+    width: 8%;
+    padding: 4px;
+    background-color: white;
+}
+
+.c-btn{
+    background-color: #A8A2DD;
+    color: black ;
+    border: none;
+    padding: 5px 7px;
+}
+
+.solution-part{
+    height: 500px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,70 @@
+.testpassprocard {
+
+
+
+    gap: 6px;
+
+    width: 373px;
+    height: 275px;
+    margin-top: 13%;
+    background: #FFFFFF;
+    /* Nuetrals/Nuetrals/N200 */
+
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.20);
+
+
+
+}
+
+.testpassprocard1 {
+
+
+
+    gap: 6px;
+    border-radius: 8px;
+    width: 480px;
+    /* height: 200px !important; */
+    margin-top: 5%;
+    background: #FFFFFF;
+    /* Nuetrals/Nuetrals/N200 */
+
+    border: 1px solid rgba(142, 141, 151, 0.5);
+    /* box-shadow: -2px -2px 8px rgba(125, 125, 125, 0.5), 2px 2px 8px rgba(125, 125, 125, 0.5);
+    border-radius: 8px; */
+
+
+
+}
+.testpassprocard2 {
+
+
+
+    gap: 6px;
+    border-radius: 8px;
+    width: 480px;
+    /* height: 220px !important; */
+    margin-top: 5%;
+    background: #FFFFFF;
+    /* Nuetrals/Nuetrals/N200 */
+
+    border: 2px solid #6257CD !important;
+    /* box-shadow: -2px -2px 8px rgba(125, 125, 125, 0.5), 2px 2px 8px rgba(125, 125, 125, 0.5);
+    border-radius: 8px; */
+
+
+
+}
+
+.testpasspro{
+    margin-top: 10% !important;
+}
+
+.css-1w1rijm-MuiButtonBase-root-MuiButton-root {
+   
+    text-transform: none !important;
+    min-width: 34px !important;
+   
+    padding: unset !important;
+}
